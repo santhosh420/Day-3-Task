@@ -1,0 +1,38 @@
+1. For the given JSON iterate over all for loops(for, for in, for of, for each)?
+
+* JSON stands for javascript object notation.
+
+* It is a easy format to store and transfer data form one place to another.
+
+* So, in looping it is mostly used techniques for transfering data.  
+
+
+2. Read about the difference between window, screen and document in javascript.
+
+Window: 
+
+* All the browser tab has a top level window object.
+* Each of the windows get a seperate global object.
+* Some of the window properties are,
+    
+    * setTimeout() and setInterval()
+    * location
+    * navigator
+
+Document:
+
+* Each window has a document oject to be rendered. 
+* This object get consfused because HTML elements are added to global object.
+* Some of document properties are:
+
+    * document.getElementById("_")
+    * document.querySelector("#_")
+    * window._name
+
+Screen:
+
+* Window object also has a screen object with properties like the physical display.
+* Screen properties:
+    
+    * Width and height are the full screen
+    * availWidth and availHeight omit the toolbar. 
